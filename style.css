@@ -60,22 +60,21 @@ section {
     align-items: center;
 }
 section button {
-    color: #2653a4;
-    position: absolute;
+    color: #ee6fb8;
+    position: relative;
     width: 100%;
     z-index: 1001;
     text-align: center;
     background: transparent;
     border-radius: 150px;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-weight: bold;
-    transform: translateX(2em);
-    transform: translateY(550px);
+    transform: translate(-80px, 530px);
     cursor: pointer;
 }
 section button:hover {
    background:transparent;
-   color: #f883be;
+   color: #932963;
 }
 section::before {
     content: '';

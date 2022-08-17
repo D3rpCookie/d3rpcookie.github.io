@@ -5,11 +5,6 @@
 	  const element = document.getElementById("Home");
 	  element.scrollIntoView();
       }
-      function scrollView() {
-	  const element = document.getElementById("GiveMeTop");
-	  element.scrollIntoView();
-	  
-      }
       
     </script> 
     <title>Du Chen Digital Portfolio</title>
@@ -19,17 +14,12 @@
     <header>
       <a href ="#" class="title">Digital Portfolio</a>
       <ul>
-	<li><a href ="#" class="active"> About Me</a></li>
+	<li><a href ="https://codermerlin.com/users/du-chen/Digital%20Portfolio/index.html#"> About Me</a></li>
 	<li><a href ="https://codermerlin.com/users/du-chen/Digital%20Portfolio/courseDirectory.html"> Course Directory</a></li>
-	<li><a href ="https://codermerlin.com/users/du-chen/Digital%20Portfolio/ISP.html"> ISPs</a></li>
+	<li><a href ="#" class="active"> ISPs</a></li>
       </ul>
     </header>
-    <section>
-      <button onclick="scrollView()">Explore!</button>
-      <img src="mainPage.jpg" id="mainPage">      
-    </section>
     <div class="nextPage">
-      <h2 id="GiveMeTop">Du Chen</h2>
       <h3></h3>
       <div class="flex-container">
 	<div class="child">

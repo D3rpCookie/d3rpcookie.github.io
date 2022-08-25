@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head><title>GRC&nbsp;|&nbsp;SSL TLS HTTPS Web Server Certificate Fingerprints&nbsp;&nbsp;</title>
+    <!-- ChangeDetection.com detection="off" -->
+    <meta name="author" content="Steve Gibson, GIBSON RESEARCH CORPORATION" />
+    <meta name="keywords" content="server https ssl tls certificate fingerprints, steve gibson" />
+    <meta name="description" content="GRC's HTTPS Web Server Certificate Fingerprint Service" />
+    <meta name="sitemenu" content="" />
+    <style type="text/css">
+      .chart tr { color:#00a; text-align:right; font-family: "Courier New", Courier, monospace; }
+      .chart td { border-bottom:1px #666 solid; border-right:1px #666 solid; padding:4px 10px;  }
+      .tightchart td { padding:2px 10px;  }
+      .dark     { background:#e8e8e8; }
+      .light    { background:#fcfcfc; }
+      .top      { text-align:center; border-top:1px #666 solid; color:grey; }
+      .topleft  { text-align:center; color:grey; }
+      .left     { border-left:1px #666 solid; color:black; }
+      .ledge    { border-left:1px #666 solid; }
+      .label    { font-size:12pt; font-family:Arial, Helvetica, sans-serif; text-align:center; }
+      .cert     { font-size:smaller; color:#666; }
+    </style>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; form-action 'self'; img-src 'self' https://www.grctech.com https://x.steve; style-src 'self' 'unsafe-inline' https://*.grc.com https://x.steve; upgrade-insecure-requests 'self' https://*.grc.com" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="pics-label" content='(pics-1.1 "http://www.rsac.org/ratingsv01.html" l gen true comment "RSACi North America Server" by "offices_@_grc.com" for "https://www.grc.com" on "1998.03.30T21:20-0800" r (n 0 s 0 v 0 l 0))' />
+    <meta http-equiv="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "https://www.grc.com" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "https://www.grc.com" r (n 0 s 0 v 0 l 0))' />
+    <link rel="icon" href="https://www.grc.com/_4xeajn2s4z5ra_/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://www.grc.com/_4xeajn2s4z5ra_/favicon.ico" type="image/x-icon" />
+    <link rel="meta" href="https://www.grc.com/labels.rdf" type="application/rdf+xml" title="ICRA labels" />
+    <link rel="stylesheet" media="all" type="text/css" href="/_4xeajn2s4z5ra_/grc.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="/_4xeajn2s4z5ra_/mainmenu.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="https://www.grctech.com/_4xeajn2s4z5ra_/thirdparty.css" />
+  </head><body  link="#CC0000" vlink="#006666" alink="#FF0000"><a name="top"></a>
+    <!-- ########################## GRC Masthead Menu ########################## -->
+
+    <div class="menuminwidth0"><div class="menuminwidth1"><div class="menuminwidth2">
+	  <div id="masthead">
+	    <a href="/default.htm"><img id="mastheadlogo" src="/mh-logo.gif" width="286" height="24" alt="Gibson Research Corporation" title="" /></a>
+	    <img id="focus" src="/mh-focus.gif" width="121" height="13" alt="" title="What we're about" />
+	    <a href="/news.htm"><img id="blogicon" src="/image/menublogicon.png" width="22" height="22" alt="blog icon" title="To our news and announcements page" /></a>
+	    <a href="/news.htm"><img id="twittericon" src="/image/menutwittericon.png" width="22" height="22" title="To our news and announcements page" alt="Twitter Icon"/></a>
+	    <a href="/news.htm"><img id="rssicon" src="/image/menurssicon.png" width="22" height="22" title="To our news and announcements page" alt="RSS Icon" /></a>
+
+	    <form action="https://www.google.com/search.htm" id="searchbox_000064552291181981813:y8yi5go2xza" onsubmit="javascript: this.action='https://www.grc.com/search.htm'">
+	      <input type="hidden" name="cx" value="000064552291181981813:y8yi5go2xza" />
+	      <input type="hidden" name="cof" value="FORID:11" />
+	      <input id="text" type="text" name="q" maxlength="256" />
+	      <input id="search" type="image" name="sa" value="Search" src="/mh-srch.gif" alt="&nbsp;[Search]" title="" />
+	    </form>
+	  </div>
+
+	  <div class="menu">
+
+	    <ul>
+	      <li><a href="/default.htm"><img src="/mb-home.gif" width="76" height="18" alt="[Home]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		      <ul class="leftbutton">
+			<li><a href="/purchasing.htm">&nbsp;Purchasing</a></li>
+			<li><a href="/sales.htm">&nbsp;Sales Support</a></li>
+			<li><a href="/support.htm">&nbsp;Technical Support</a></li>
+			<li><a href="/default.htm#bottom">&nbsp;Contact Us</a></li>
+			<li><a href="/news.htm">&nbsp;Blogs, Twitter &amp; RSS</a></li>
+			<li><a href="/privacy.htm">&nbsp;Privacy Policy</a></li>
+			<!--<li><a href="/siteoptions.htm">&nbsp;Site Options</a></li>-->
+			<li><a href="/stevegibson.htm">&nbsp;Steve's Projects Page</a></li>
+			<li><a href="/resume.htm">&nbsp;Steve's Old Resume</a></li>
+		      </ul>
+		      <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+<ul>
+  <li><a href="/sr/spinrite.htm"><img src="/mb-products.gif" width="96" height="18" alt="[Products]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	  <ul>
+	    <li><a href="/sr/spinrite.htm">&nbsp;General information</a></li>
+	    <li><a href="/sr/whatitdoes.htm">&nbsp;What SpinRite Does</a></li>
+	    <li><a href="/sr/testimonials.htm">&nbsp;User testimonials</a></li>
+	    <li><a href="/sr/smart.htm">&nbsp;S.M.A.R.T. Monitor</a></li>
+	    <li><a href="/cs/prepurch.htm">&nbsp;Purchase SpinRite</a></li>
+	    <li><a href="/sr/faq.htm">&nbsp;FAQ</a></li>
+	    <li><a href="/sr/themovie.htm">&nbsp;Demo Videos</a></li>
+	    <li><a href="/sr/kb/sata.htm">&nbsp;Knowledgebase: SATA</a></li>
+	    <li><a href="/sr/kb/badbios.htm">&nbsp;Knowledgebase: BIOS</a></li>
+	    <li><a href="/sroverview.htm">&nbsp;SpinRite v5.0 pages</a></li>
+	  </ul>
+	  <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+<ul>
+  <li><a href="/x/ne.dll?bh0bkyd2"><img src="/mb-services.gif" width="94" height="18" alt="[Services]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	  <ul>
+	    <li><a href="/x/ne.dll?bh0bkyd2">&nbsp;ShieldsUP!</a></li>
+	    <li><a href="/revocation.htm">&nbsp;Certificate Revocation</a></li>
+	    <li><a href="/haystack.htm">&nbsp;Password Haystacks</a></li>
+	    <li><a href="/fingerprints.htm">&nbsp;HTTPS Fingerprints</a></li>
+	    <li><a href="/securitynow.htm">&nbsp;Security Now!</a></li>
+	    <li><a href="/dns/dns.htm">&nbsp;DNS Spoofability Test</a></li>
+	    <li><a href="/passwords.htm">&nbsp;Perfect Passwords</a></li>
+	    <li><a href="/ppp.htm">&nbsp;PPP Passwords</a></li>
+	    <li><a href="/media.htm">&nbsp;Tech TV video clips</a></li>
+	    <li><a href="/discussions.htm">&nbsp;Newsgroup Discussions</a></li>
+	  </ul>
+	  <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+<ul>
+  <li><a href="/freepopular.htm"><img src="/mb-freeware.gif" width="98" height="18" alt="[Freeware]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	  <ul class="skinny">
+	    <li><center><a href="/sqrl/sqrl.htm"><b>SQRL</b></a></center></li>
+	    <li><a href=""><span class="drop"><span>Security</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		    <ul>
+		      <li><a href="/inspectre.htm">&nbsp;InSpectre</a></li>
+		      <li><a href="/securable.htm">&nbsp;Securable</a></li>
+		      <li><a href="/lt/leaktest.htm">&nbsp;Leaktest</a></li>
+		      <li><a href="/stm/shootthemessenger.htm">&nbsp;Shoot the messenger</a></li>
+		      <li><a href="/unpnp/unpnp.htm">&nbsp;Unplug n' Pray</a></li>
+		      <li><a href="/freeware/dcom.htm">&nbsp;DCOMbobulator</a></li>
+		      <li><a href="/wmf/wmf.htm">&nbsp;MouseTrap</a></li>
+		      <li><a href="/wmf/wmf.htm">&nbsp;MouseTrapCmd</a></li>
+		    </ul>
+		    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href=""><span class="drop"><span>Utilities</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/incontrol.htm">&nbsp;<b>In</b>Control</a></li>
+	  <li><a href="/readspeed.htm">&nbsp;ReadSpeed</a></li>
+	  <li><a href="/dns/benchmark.htm">&nbsp;DNS Benchmark</a></li>
+	  <li><a href="/initdisk.htm">&nbsp;InitDisk</a></li>
+	  <li><a href="/never10.htm">&nbsp;Never 10&nbsp;&nbsp;(no upgrade)</a></li>
+	  <li><a href="/wizmo/wizmo.htm">&nbsp;Wizmo</a></li>
+	  <li><a href="/id/idserve.htm">&nbsp;ID Serve</a></li>
+	  <li><a href="/freeware/clickey.htm">&nbsp;ClicKey</a></li>
+	  <li><a href="/ct/cleartype.htm">&nbsp;Free &amp; Clear</a></li>
+	  <li><a href="/tip/id.htm">&nbsp;IDentity (ASPI)</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href=""><span class="drop"><span>Obsolete</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/cih/cih.htm">&nbsp;FIX-CIH</a></li>
+	  <li><a href="/tip/clickdeath.htm">&nbsp;TIP (trouble in paradise)</a></li>
+	  <li><a href="/oo-update.htm">&nbsp;OptOut</a></li>
+	  <li><a href="/xpdite/xpdite.htm">&nbsp;XPdite</a></li>
+	  <li><a href="/faq-shieldsup.htm">&nbsp;NoShare</a></li>
+	  <li><a href="/faq-shieldsup.htm">&nbsp;LetShare</a></li>
+	  <li><a href="/pw/patchwork.htm">&nbsp;Patchwork</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+<ul>
+  <li><a href=""><img src="/mb-research.gif" width="98" height="18" alt="[Research]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	  <ul class="skinny">
+	    <li><a href=""><span class="drop"><span>General</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+		    <ul>
+		      <li><a href="/malware.htm">&nbsp;Malware Repository</a></li>
+		      <li><a href="/sqrl/sqrl.htm">&nbsp;SQRL&nbsp;Login&nbsp;Technology</a></li>
+		      <li><a href="/ssl/ev.htm">&nbsp;EV SSL/TLS Certificates</a></li>
+		      <li><a href="/otg/uheprng.htm">&nbsp;Ultra-high entropy PRNG</a></li>
+		      <li><a href="/menudemo.htm">&nbsp;Pure CSS web menus</a></li>
+		      <li><a href="/nat/nat.htm">&nbsp;NAT router security</a></li>
+		      <li><a href="/pda/palmpower.htm">&nbsp;PDA max battery life</a></li>
+		    </ul>
+		    <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href=""><span class="drop"><span>Pending</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/nf/netfilter.htm">&nbsp;GRC NetFilter</a></li>
+	  <li><a href="/tp/trustpuppy.htm">&nbsp;TrustPuppy</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href=""><span class="drop"><span>Historical</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/worms/25-01-03.htm">&nbsp;Worm wars of 2001</a></li>
+	  <li><a href="/downloaders.htm">&nbsp;File downloader spying</a></li>
+	  <li><a href="/ct/ctwhat.htm">&nbsp;Sub-pixel font rendering</a></li>
+	  <li><a href="/su/earthlink.htm">&nbsp;Earthlink browser tag</a></li>
+	  <li><a href="/tip/codfaq1.htm">&nbsp;ZIP &amp; JAZ click of death</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href=""><span class="drop"><span>Dormant</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/vpn/vpn.htm">&nbsp;OpenVPN</a></li>
+	  <li><a href="/r&amp;d/assimilator.htm">&nbsp;The Assimilator</a></li>
+	  <li><a href="/aspi_me.htm">&nbsp;ASPI ME</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+<li><a href="/health.htm"><span class="drop"><span>Health</span>&raquo;</span><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	<ul>
+	  <li><a href="/health.htm">&nbsp;Health Homepage</a></li>
+	  <li><a href="/health/lowcarb.htm">&nbsp;The Low Carb Choice</a></li>
+	  <li><a href="/health/vitamin-d.htm">&nbsp;Vitamin D</a></li>
+	  <li><a href="/health/sleep/healthy_sleep_formula.htm">&nbsp;Healthy Sleep Formula</a></li>
+	  <li><a href="/zeo.htm">&nbsp;Zeo Sleep Manager Pro</a></li>
+	</ul>
+	<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+
+</ul>
+<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+<ul>
+  <li id="other"><a href="/pdp-8/pdp-8.htm"><img src="/mb-other.gif" width="77" height="18" alt="[Other]" title="" /><!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+	  <ul>
+	    <li><center><a href="/sqrl/sqrl.htm"><b>SQRL</b></a></center></li>
+	    <li><a href="/pdp-8/pdp-8.htm">&nbsp;PDP-8 Computers</a></li>
+	    <li><a href="/misc/truecrypt/truecrypt.htm">&nbsp;TrueCrypt Repository</a></li>
+	    <li><a href="/Big-Number-Calculator.htm">&nbsp;Big Number Calculator</a></li>
+	    <li><a href="/tqc/TheQuietCanine.htm">&nbsp;The Quiet Canine</a></li>
+	  </ul>
+	  <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+</li>
+</ul>
+
+</div> <!-- close "menu" div -->
+<hr style="display:none" />
+</div></div></div> <!-- close the "minwidth" wrappers -->
+<!-- ###################### END OF GRC MASTHEAD MENU  ###################### -->
+
+<center><br /><table border="0" cellpadding="0" cellspacing="0"><tr><td rowspan="2">
+	<img src="/image/MagFingerprint.jpg" width="104" height="129" alt="MagFingerprint" /></td><td>&nbsp;&nbsp;</td><td align="center" valign="top"><font color="#990033" face="Verdana,Arial,Helvetica,Sans-Serif,MS Sans Serif" size="7"><b>Fingerprints</b><br /><span style="color:#000099; font-size:10.5pt;">Is your employer, school, or Internet provider<br /><b>eavesdropping</b> on your <b><u>secure</u></b> connections?</span></font></td></tr><tr valign="bottom"><td align="center" colspan="2"><font color="#808080" face="Verdana,Arial,Helvetica,Sans-Serif,MS Sans Serif" size="1">306 sets of fingerprints checked per day<br />2,637,018 sets of fingerprints checked for our visitors</font></td></tr></table><img src="/image/darkredpixel.gif" width="90%" height="4" border="0" alt="" /><br /><p class="blue_headline">Secure browser connections <u>can be intercepted and decrypted</u><br />by authorities who spoof the authentic site's certificate. But<br /><b>the authentic site's fingerprint CANNOT be duplicated!</b></p>
+  <div id="OneMomentPlease" style="font-size:16pt; color:#a00; margin-top:2em; ">Fingerprinting ten remote servers. . .</div>
+  <style> #OneMomentPlease { display: none; } </style>
+  <table class="chart" cellspacing="0"><tr><td class="topleft">Domain&nbsp;Name</td><td class="top">Certificate&nbsp;Name</td><td class="top">EV</td><td class="top">Security Certificate's <span style="color:black; font-weight:bold">Authentic</span> Fingerprint</td></tr>
+    <tr class="dark"><td class="left">www.grc.com</td><td>grc.com</td><td class="topleft">&#8212;</td><td>C3:FB:91:85:CC:6B:4C:7D:E7:18:ED:D8:00:D2:84:E7:6E:97:06:07</td></tr>
+    <tr class="light"><td class="left">www.facebook.com</td><td>*.facebook.com</td><td class="topleft">&#8212;</td><td>C4:54:78:DB:62:60:56:02:2B:8A:E1:4E:74:A7:71:08:47:36:CB:BA</td></tr>
+    <tr class="dark"><td class="left">www.paypal.com</td><td>www.paypal.com</td><td class="topleft"><img src="/image/GreenSphere.gif" width="13" height="13" alt="EV - Extended Validation" /></td><td>B4:F9:B2:3D:92:D4:97:AB:21:98:9F:49:17:AB:AD:F7:03:F3:98:0B</td></tr>
+    <tr class="light"><td class="left">www.wikipedia.org</td><td>*.wikipedia.org</td><td class="topleft">&#8212;</td><td>BA:76:D9:62:A7:4C:EF:99:01:05:FE:E3:79:C8:8B:AC:A0:96:71:E0</td></tr>
+    <tr class="dark"><td class="left">twitter.com</td><td>twitter.com</td><td class="topleft">&#8212;</td><td>DA:26:F7:2E:AC:AC:75:CC:EE:79:41:40:44:10:20:84:86:97:AE:B0</td></tr>
+    <tr class="light"><td class="left">www.blogger.com</td><td>*.blogger.com</td><td class="topleft">&#8212;</td><td>A4:E9:D1:87:DF:AA:9D:83:E5:A2:C5:6E:93:D4:F3:8D:2F:19:A9:C8</td></tr>
+    <tr class="dark"><td class="left">www.linkedin.com</td><td>www.linkedin.com</td><td class="topleft">&#8212;</td><td>E8:B3:49:E7:DE:6C:56:87:4D:5E:CC:2F:F0:54:C7:FD:AA:3C:37:05</td></tr>
+    <tr class="light"><td class="left">www.yahoo.com</td><td>yahoo.com</td><td class="topleft">&#8212;</td><td>5B:E5:8B:77:BB:9E:19:7E:42:64:F5:91:DF:4E:1A:79:47:47:84:B6</td></tr>
+    <tr class="dark"><td class="left">wordpress.com</td><td>*.wordpress.com</td><td class="topleft">&#8212;</td><td>7A:C1:B2:7E:09:FF:88:03:C3:E9:B7:4F:31:F4:AC:75:79:BA:66:E6</td></tr>
+    <tr class="light"><td class="left">www.wordpress.com</td><td>*.wordpress.com</td><td class="topleft">&#8212;</td><td>7A:C1:B2:7E:09:FF:88:03:C3:E9:B7:4F:31:F4:AC:75:79:BA:66:E6</td></tr>
+  </table>
+
+  <table><tr><td style="padding-top:5px; color:#555; font-size:8pt;">Each site's authentic security certificate fingerprint (shown above) was just now obtained by GRC's servers from each target web<br />server. <u>If your web browser sees a different fingerprint for the same certificate</u> (carefully verify the Certificate Name is identical) that<br />forms strong evidence that <u>something is intercepting your web browser's secure connections</u> and is creating fraudulent site certificates.</td></tr></table>
+  <div id="embelow" class="pagecontainer">
+
+    <div class="blue_section_heading">Custom Site Fingerprinting</div>
+
+    <p>In addition to the well-known web sites listed above, GRC's web server can obtain and display the &#8220;fingerprint&#8221; of any HTTPS-capable public web server's secure connection certificate. Simply enter the domain name of the server you wish to fingerprint, then press Enter or click the &#8220;Fingerprint Site&#8221; button:</p>
+
+    <center><form method="post" action="/fingerprints.htm"><table bgcolor="#660000" border="0" cellpadding="1" cellspacing="0"><tr><td><table width="100%" bgcolor="#FFD0D0" border="0" cellpadding="0" cellspacing="0"><tr><td><table width="100%" border="0" cellpadding="0" cellspacing="15"><tr valign="top"><td><span style="font-weight: bold; font-size:16px; ">https://</span><input id="domainname" type="text" name="1" value="" size="64" maxlength="253" /></td><td><input type="submit" name="2" value="Fingerprint Site" /></td></tr></table></td></tr></table></td></tr></table>
+
+	<table><tr><td><div class="dotted_green"><b>Google and Apple are different:</b> Some visitors are being confused by<br />Google's and Apple's certificate fingerprints which change and may not<br />match.&nbsp;&nbsp;Please see the &#8220;What can go wrong with this test?&#8221; section at<br />the bottom of this page for an explanation of the complexities.</div></td></tr></table></form></center>
+
+
+    <div style="margin:1.5em 0 0.25em 0; text-align:center; color:#070; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size: 20pt;">What's this about?</div>
+
+    The Internet is a cooperative PUBLIC DATA NETWORK. Its data traffic flows around the globe freely, transported by an incredible variety of intermediate carriers. These carriers cooperate because they need each other equally<b>:</b> &#8220;I'll carry your traffic if you'll carry mine.&#8221; And the system works. But with all of this traffic zipping around all over the place, in full public view, how do we <b>KNOW</b> that we are <u>really</u> connected to our bank, our medical records database, or any other public or private website? Websites are (obviously) easy to create, so copying a popular website and redirecting traffic there would not be difficult. And, unfortunately, the world has no shortage of people who would like to do that.
+
+    <p>The original un-secured HTTP web connections never attempted to authenticate or encrypt their connections. Users who knew enough to wonder and worry could only hope that they were actually interacting with the website they intended. And that was fine back when the Internet was just a curiosity. But the Internet has grown into a resource where people conduct business, place orders, exchange stock, refer to their medical histories, perform their banking, and everything else&#8212;very much as they do in the physical world. For the &#8220;cyber versions&#8221; of these activities to be feasible, users expect, need, and must have security and privacy.</p>
+
+    <center><table border="0" cellpadding="0" cellspacing="0"><tr><td style="color:#070; font-weight:bold; font-family: Arial, Helvetica, sans-serif; font-size:16pt;">The &#8220;S&#8221; added to the end of the &#8220;HTTP&#8221; means SECURE.</td></tr><tr align="center"><td>(Or at least it was supposed to.)</td></tr></table></center>
+
+    <p>The presence of the unbroken key or the lock icon on the web browser <b>once</b> meant that the connection between the user and the remote web server was authenticated, secured, encrypted<b>&nbsp;.&nbsp;.&nbsp;.&nbsp;</b>and <b>not</b> susceptible to <b>any</b> form of eavesdropping by any third party. <b>Unfortunately, that is no longer always true.</b></p>
+
+    <p><div class="larger_red_arial" style="margin-bottom:0.2em;">What happened?</div>
+      To enhance their users' security and privacy, an ever increasing number of web sites are switching from traditional &#8220;HTTP&#8221; to the more secure &#8220;HTTPS&#8221; connections&#8212;like THIS web page. This type of secured connection is known as SSL or TLS (&#8220;Secure Sockets Layer&#8221; and &#8220;Transport Layer Security&#8221;) two names for the same thing. What's significant is that the data sent back and forth over any HTTPS/SSL/TLS connection is encrypted by technology no one knows how to break. Really, no one. It's truly secure.
+
+    <p>In the early days of the Internet, the encryption provided by HTTPS connections was difficult and time consuming to establish, so these &#8220;expensive&#8221; connections were usually reserved for logging into a site (to protect the user's name and password) or when submitting very sensitive information, such as private credit card numbers and purchasing data. Since HTTPS connections were once used sparingly, anyone wishing to monitor, watch, record and log the actions of users on the Internet could do so easily, simply by eavesdropping on the data moving through the wires. But as technology has advanced, the cost of employing unbreakable encryption for all connections has become feasible. So today more and more websites are switching to always using encrypted HTTPS connections.</p>
+
+    <p>This has been great for Internet users, who expect and want their use of the Internet to remain personal and private. But employers, educational institutions, and others have become unhappy that their traditional network traffic monitoring and filddtering is increasingly blinded by the growing use of HTTPS connection encryption. (The United States FBI refers to this as the &#8220;Going Dark Problem&#8221; since they, too, are able to see less and less of what's going on. For them, the Internet is &#8220;going dark&#8221; all around them.)</p>
+
+    <p>Private institutions&#8212;corporations, schools, and other organizations&#8212;have responded to this &#8220;loss of visibility&#8221; into every detail of their employees' and students' Internet us

@@ -1,6 +1,8 @@
-<html>
-  <head>
-    <script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
       function scrollHome() {
 	  const element = document.getElementById("Home");
 	  element.scrollIntoView();
@@ -28,12 +30,12 @@
       </ul>
     </header>
     <section>
+      <h4>.</h4>
       <button onclick="scrollView()">Explore!</button>
-      <img src="mainPage.jpg" id="mainPage">      
+      <img src="mainPage.jpg" id="mainPage" alt="background image">      
     </section>
     <div class="nextPage">
       <h2 id="GiveMeTop">Du Chen</h2>
-      <h3></h3>
       <div class="flex-containerI">
 	<div style="cursor:text;" class="child">
 	  <h3> UX Design </h3>
@@ -55,14 +57,20 @@
 	  <h3>Why Digital Portfolio</h3>
 	  <p>The Digital Portfolio is important for me because it is a place for me to introduce myself to not only potential employers and colleges, but also introduce myself to acomplices in varying environments, ranging from engineering laboratories to CS research groups in the future.</p>
 	</div>
-
-      </div>
+	</div> 
+	<div>
+	  <br>
+	
+	  <a style="text-align:center; color:#FFF;" href ="https://github.com/D3rpCookie/d3rpcookie.github.io"> My Website lives here</a>
+	</div>
+      
       <br>
-</br>
+      
 
-<button onclick="scrollHome()">
-  <img src="upArrow.png" id="endings">
-</button>
+      <button onclick="scrollHome()">
+	<img src="upArrow.png" id="endings" alt="Click to go back up">
+      </button>
     </div>
   </body>
+  
 </html>

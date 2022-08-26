@@ -1,5 +1,7 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
     <script>
       function scrollHome() {
 	  const element = document.getElementById("Home");
@@ -34,7 +36,7 @@
     <div>
       <div style="height:100vh; text-align:center; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
 	
-	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-style:bold;">1</p>
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-weight:bold;">1</p>
 	    <br>
 
 	    <br>
@@ -59,11 +61,10 @@ Professor Ben-Yaakov
       </div>
       
     </div>
-      <h3></h3>
       <div class="flex-containerCD">
 	<div class="childCD">
 	  <div style="height:100vh;">
-	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-style:bold;">2</p>
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-weight:bold;">2</p>
 	    <br>
 	    <p style=" text-align: left; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
 	    
@@ -73,15 +74,18 @@ Professor Ben-Yaakov
 	    This may sound scary, and it is, but there have been solutions developed to counter this issue. Even though SSL interceptions cannot be prevented by normal methods, SSL interceptions can be detected and resolved reliably. An SSL interception can be detected through examination of the fingerprint of the certificate; if any change at all is done to the certificate, there is essentially a whole new fingerprint, cryptographic hash, to the certificate, meaning that the connection is being intercepted. These fingerprints are essentially algorithms that analyze the SSL Certificate contents. A good hash will change almost completely even when the SSL certificate content is changed by a little, to show that the fingerprint has changed. However, there are cases where a detection can be wrong. On one hand, False-Positive can occur when large websites hold multiple certificates for a series of webpages. (Knowledge Base 2021) Therefore, when people testing those websites see that they are getting the wrong SSL hash, it will lead them to conclude that their connection is being intercepted even though the website simply had multiple certificates. </p>
 	  </div>
 	  <div>
-	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:5; color:#FFF; font-size: 20px; font-style:bold;">3</p>
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:5; color:#FFF; font-size: 20px; font-weight:bold;">3</p>
 	    
 	  <p style="height: 100vh;text-indent: 50px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
-	  On the other hand, False-Negative can occur when certain browser connections toward the website are not intercepted, therefore tricking those few to believe that all other connections are safe as well and ensuring others who&#39;s not testing the webpage connection that it is also secure for them. (GRC 2020) Even though eavesdropping on common citizens&#39; daily internet usage sounds illegal, governments, schools and ISPs have a right to eavesdrop on your communication, as they aren&#39;t entering your property to obtain such conversations. We just have to fight to protect our own rights against these institutions through being aware of our own connections and when something looks suspicious.
-	    </p>
+	  On the other hand, False-Negative can occur when certain browser connections toward the website are not intercepted, therefore tricking those few to believe that all other connections are safe as well and ensuring others who&#39;s not testing the webpage connection that it is also secure for them. (GRC 2020) Even though eavesdropping on common citizens&#39; daily internet usage sounds illegal, governments, schools and ISPs have a right to eavesdrop on your communication, as they aren&#39;t entering your property to obtain such conversations. We have to fight to protect our own rights against these institutions through being aware of our own connections and when something looks suspicious. To simplify the contents detailed above, here is a flowchart detailing how a HTTPS connection prevents connection proxies and middle man attacks. 
+<br>	 
+      <img style="background:#FFF; height:700px;"  src = "Fingerprint.png" alt="The Flowchart of how HTTPS connection functions">
+      
+	  </p>
 	  </div>
 	  <div style="height:100vh;">
 	    
-	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:3; color:#FFF; font-size: 20px; font-style:bold;">4</p>
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:3; color:#FFF; font-size: 20px; font-weight:bold;">4</p>
 	    <h2 style="font-size: 25px; text-align: center; font-family:Arial, Helvetica, sans-serif; line-height:3; color:#FFF;"> Reference </h2>
 	    <p style=" text-align: left;font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
 	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;"> About the HTTPS-Proxy.</i> (2020). WatchGuard.  <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Fireware/proxies/https/https_proxy_about_c.html </i>
@@ -95,10 +99,22 @@ Professor Ben-Yaakov
 	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Understanding Hash Functions.</i> (2021,June 22). Knowledge Base.  <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.thesslstore.com/knowledgebase/ssl-support/understanding-hash-functions/#:%7E:text=Hashing%20is%20mapping%20data%20of,purpose%20of%20hashing%20is%20authentication.
 	      </i>
 	    </p>
+	    <br>
+	    <p style="text-indent: -36px; padding-left: 36px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Gamer using a PC.</i> (2021,April 30). [Photograph]. Avast. <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPtD6RGQg27fXxuFK8gf2ZcBrD7A0JerAakA&usqp=CAU
+	      </i>
+	    </p>
+
+	    <br>
+	    <p style="text-indent: -36px; padding-left: 36px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Server Hosts.</i>  (2022, February 9). [Photograph] Cheapest Dedicated Server Hosts for 2022. <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.hostingadvice.com/wp-content/uploads/2022/01/Cheapest-Dedicated-Server-Hosts.jpg	      </i>
+	    </p>
 
 	  </div>
 	</div>
 	
+      </div>
     </div>
   </body>
+  
 </html>

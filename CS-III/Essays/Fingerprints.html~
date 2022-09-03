@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <script>
+      function scrollHome() {
+	  const element = document.getElementById("Home");
+	  element.scrollIntoView();
+      }
+      function scrollView() {
+	  const element = document.getElementById("GiveMeTop");
+	  element.scrollIntoView();
+	  
+      }
+      
+    </script> 
+    <title>Fingering</title>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+  </head>
+  <body  id="Home">
+    <header>
+      <a href ="#" class="title">Digital Portfolio</a>
+      <ul>
+	<li><a href ="../../index.html"> About Me</a></li>
+	<li><a href ="../../courseDirectory.html"> Course Directory</a></li>
+	<li><a href ="../../ISP.html"> ISPs</a></li>
+	<li><a href ="../../Essays">Essays</a></li>
+	<li><a href ="../../sources.html"> Sources</a></li>
+
+      </ul>
+    </header>
+
+    
+    <div class="nextPage">
+      
+    <div>
+      <div style="height:100vh; text-align:center; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-weight:bold;">1</p>
+	    <br>
+
+	    <br>
+
+	    <br>
+
+	    <br>
+	    <b style=" text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">The Continuous Battle of Web Security and How To Increase Your Self-Awareness</b>
+<br>
+
+<br>
+
+<br>
+Du Chen
+<br>
+Allen STEAM Center
+<br>
+Computer Science III
+<br>
+Professor Ben-Yaakov
+
+      </div>
+      
+    </div>
+      <div class="flex-containerCD">
+	<div class="childCD">
+	  <div style="height:100vh;">
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px; font-weight:bold;">2</p>
+	    <br>
+	    <p style=" text-align: left; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	    
+	    HTTPS stands for HyperText Transfer Protocol Secure, this format of web connection is now a standard protocol for websites rather than using an HTTP format. Prior to the HTTPS model, the HTTP model was easily subjected to MITM attacks, attacks in which the attacker acts as the middle man between the user and the web page, collecting data of the users without the users knowing they exist. Similarly to MITM attacks, the ghost kitchens concept which the famous Beast Burger brand adopts also demonstrates how a man in the middle can interact without the user&#39;s acknowledgement. When Beast Burger consumers order a Beast Burger, they are actually unknowingly getting food from a kitchen in the back of a McDonald&#39;s, which serves as a ghost kitchen for the Beast Burger brand. However, the ghost kitchen model is non malicious and also a collaboration between the burger brand and the McDonald&#39;s, while MITM attacks is malicious and an attack against both the web page and the users. The difference between the older model of HTTP format and the now popular HTTPS model is the <q style="font-family: Arial, Helvetica, sans-serif;">Secure</q> section in the HTTPS. The HTTPS model enhances the security and privacy of the users which connect to the website through the implementation of CAs. CAs, or certificate authorities, are organizations and companies that put their name on the line to confirm the legitimacy of the web pages after verifying with the webpage owners directly. They act as the man in the middle in the HTTPS model, but in a non-malice way. (GRC 2020) The webpages would present certificates given to them by these CAs to prove that they are the website the user is attempting to traverse, allowing the users to safely interact with the webpage. However, through using an HTTPS proxy appliance, proxies which interfere with the users traffic to log their traffic before connecting them to the desired web page by arranging one more pseudo certificate authority, schools, government agencies, and many others can track your history and crumble the security of HTTPS model. (WatchGuard 2020) </p>
+	    <br>
+	    <p style="height: 100vh; text-align: left; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	    This may sound scary, and it is, but there have been solutions developed to counter this issue. Even though SSL interceptions cannot be prevented by normal methods, SSL interceptions can be detected and resolved reliably. An SSL interception can be detected through examination of the fingerprint of the certificate; if any change at all is done to the certificate, there is essentially a whole new fingerprint, cryptographic hash, to the certificate, meaning that the connection is being intercepted. These fingerprints are essentially algorithms that analyze the SSL Certificate contents. A good hash will change almost completely even when the SSL certificate content is changed by a little, to show that the fingerprint has changed. However, there are cases where a detection can be wrong. On one hand, False-Positive can occur when large websites hold multiple certificates for a series of webpages. (Knowledge Base 2021) Therefore, when people testing those websites see that they are getting the wrong SSL hash, it will lead them to conclude that their connection is being intercepted even though the website simply had multiple certificates. </p>
+	  </div>
+	  <div>
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:5; color:#FFF; font-size: 20px; font-weight:bold;">3</p>
+	    
+	  <p style="height: 100vh;text-indent: 50px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	  On the other hand, False-Negative can occur when certain browser connections toward the website are not intercepted, therefore tricking those few to believe that all other connections are safe as well and ensuring others who&#39;s not testing the webpage connection that it is also secure for them. (GRC 2020) Even though eavesdropping on common citizens&#39; daily internet usage sounds illegal, governments, schools and ISPs have a right to eavesdrop on your communication, as they aren&#39;t entering your property to obtain such conversations. We have to fight to protect our own rights against these institutions through being aware of our own connections and when something looks suspicious. To simplify the contents detailed above, here is a flowchart detailing how a HTTPS connection prevents connection proxies and middle man attacks. 
+<br>	 
+      <img style="background:#FFF; height:700px;"  src = "../../Fingerprint.png" alt="The Flowchart of how HTTPS connection functions">
+      
+	  </p>
+	  </div>
+	  <div style="height:100vh;">
+	    
+	    <p style="vertical-align: top; right: 0px; text-align: right; text-indent: 50px; font-family:Arial, Helvetica, sans-serif; line-height:3; color:#FFF; font-size: 20px; font-weight:bold;">4</p>
+	    <h2 style="font-size: 25px; text-align: center; font-family:Arial, Helvetica, sans-serif; line-height:3; color:#FFF;"> Reference </h2>
+	    <p style="text-indent:-36px; text-align: left;font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;"> About the HTTPS-Proxy.</i> (2020). WatchGuard.  <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Fireware/proxies/https/https_proxy_about_c.html </i>
+	    </p>
+	    <br>
+	    <p style=" text-indent:-36px; text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Shields UP!! System Error. </i> (2020). GRC.  <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.grc.com/x/URL_Error.htm#top</i>
+	    </p>
+	    <br>
+	    <p style="text-indent: -36px; padding-left: 36px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Understanding Hash Functions.</i> (2021,June 22). Knowledge Base.  <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.thesslstore.com/knowledgebase/ssl-support/understanding-hash-functions/#:%7E:text=Hashing%20is%20mapping%20data%20of,purpose%20of%20hashing%20is%20authentication.
+	      </i>
+	    </p>
+	    <br>
+	    <p style="text-indent: -36px; padding-left: 36px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Gamer using a PC.</i> (2021,April 30). [Photograph]. Avast. <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPtD6RGQg27fXxuFK8gf2ZcBrD7A0JerAakA&usqp=CAU
+	      </i>
+	    </p>
+
+	    <br>
+	    <p style="text-indent: -36px; padding-left: 36px;  text-align: left; font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF; font-size: 20px;">
+	      <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">Server Hosts.</i>  (2022, February 9). [Photograph] Cheapest Dedicated Server Hosts for 2022. <i style=" font-family:Arial, Helvetica, sans-serif; line-height:2; color:#FFF;">https://www.hostingadvice.com/wp-content/uploads/2022/01/Cheapest-Dedicated-Server-Hosts.jpg	      </i>
+	    </p>
+
+	  </div>
+	</div>
+	
+      </div>
+    </div>
+  </body>
+  
+</html>

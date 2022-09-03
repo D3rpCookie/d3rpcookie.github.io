@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>AI Sentience </title>
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+	
+  </head>
+  <body>
+        <header>
+      <a href ="#" class="title">Digital Portfolio</a>
+      <ul>
+	<li><a href ="../../index.html"> About Me</a></li>
+	<li><a href ="../../courseDirectory.html"> Course Directory</a></li>
+	<li><a href ="../../ISP.html"> ISPs</a></li>
+	<li><a href ="../../Essays.html">Essays</a></li>
+	<li><a href ="../../sources.html"> Sources</a></li>
+
+      </ul>
+	</header>
+	<div class="Essay">
+	  
+	  <p class="Essay">
+	    <b class="Essay"> The future of AI Sentience </b>
+	    
+	  </p>
+	  
+	</div>
+  </body>
+  
+  

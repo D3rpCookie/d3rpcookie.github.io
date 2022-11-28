@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <script>
+      function scrollHome() {
+	  const element = document.getElementById("Home");
+	  element.scrollIntoView();
+      }
+      
+    </script> 
+    <title>Du Chen Digital Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="../../../style.css">
+  </head>
+  <body  id="Home">
+    <header>
+      <a href ="#" class="title">Digital Portfolio</a>
+      <ul>
+	<li><a href ="../../../index.html#"> About Me</a></li>
+	<li><a href ="../../../courseDirectory.html"> Course Directory</a></li>
+	<li><a href ="../../../ISP.html"> ISPs</a></li>
+	<li><a href ="../../Essays/index.html">Essays</a></li>
+	<li><a href ="../../../sources.html"> Sources</a></li>
+      </ul>
+    </header>
+    <div class="nextPage" style="color:#FFF;">
+      <h1 style="color:#FFF;"> Team Member </h1>
+      Nimo. Danelle. Khoi. Renee.
+      <h1 style="color:#FFF;"> ISP Description </h1>
+      Electric motorcycle created from the frame of a 2002 Kawasaki ninja. The bulk of the project will be split into the mechanical aspect, refining and removing excess parts, and the software or electrical side, which will develop the Electronic Speed Controller. The ESC will be a firmware-swapped MCU, and will be responsible for the PID, speed and battery monitoring. Additionally, a large rechargeable lithium battery will need to be constructed. The goal of the project is to have around a 60-mile range, with top speeds of 60-70 mph.
+    </div>
+    
+  </body>
+</html>

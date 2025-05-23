@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quest Log - Du Chen</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Silkscreen', cursive;
+      background: #f4e8d1 url('assets/images/questlog-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #3e2c0f;
+    }
+
+    .book {
+      display: flex;
+      max-width: 1400px;
+      margin: 80px auto;
+      border: 8px ridge #8c6239;
+      border-radius: 12px;
+      background: #fff3dc;
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
+      overflow: hidden;
+      font-size: 1.1em;
+    }
+
+    .left-page, .right-page {
+      flex: 1;
+      padding: 40px;
+      border-right: 1px solid #c8a97e;
+    }
+
+    .right-page {
+      border-right: none;
+      position: relative;
+    }
+
+    .project-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .project-list li {
+      padding: 14px;
+      margin-bottom: 14px;
+      background: #fffef9;
+      border: 2px dashed #8c6239;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .project-list li:hover {
+      background: #fff9e6;
+    }
+
+    .project-detail {
+      opacity: 1;
+      transition: opacity 0.6s ease-in-out;
+    }
+
+    .project-detail.fade-out {
+      opacity: 0;
+    }
+
+    .project-detail h2 {
+      margin-top: 0;
+    }
+
+    .launch {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: #8c6239;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="book">
+    <div class="left-page">
+      <h2>📜 Projects</h2>
+      <ul class="project-list">
+        <li onclick="selectProject(0)">🖥️ Build the BMS Firmware</li>
+        <li onclick="selectProject(1)">🎮 Create the Racing Sim</li>
+        <li onclick="selectProject(2)">🔍 VLSI CAD Placement Tool</li>
+      </ul>
+    </div>
+    <div class="right-page">
+      <div id="project-detail" class="project-detail">
+        <h2>🖥️ Build the BMS Firmware</h2>
+        <p>Developed an embedded firmware stack for a battery management system with SPI/CAN communication.</p>
+        <p><strong>Tools:</strong> C, STM32, PlatformIO</p>
+        <a class="launch" href="project1.html">Begin Quest</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const projects = [
+      {
+        title: "🖥️ Build the BMS Firmware",
+        desc: "Developed an embedded firmware stack for a battery management system with SPI/CAN communication.",
+        tools: "C, STM32, PlatformIO",
+        link: "project1.html"
+      },
+      {
+        title: "🎮 Create the Racing Sim",
+        desc: "Designed and built a tilting racing simulator with embedded motor control and Neopixel feedback.",
+        tools: "ESP32, PWM, Unity",
+        link: "project2.html"
+      },
+      {
+        title: "🔍 VLSI CAD Placement Tool",
+        desc: "Implemented custom macro-cell placement algorithm and integrated it into the OpenROAD flow.",
+        tools: "Python, OpenROAD, Qt",
+        link: "project3.html"
+      }
+    ];
+
+    function selectProject(index) {
+      const detail = document.getElementById('project-detail');
+      detail.classList.add('fade-out');
+      setTimeout(() => {
+        const p = projects[index];
+        detail.innerHTML = `
+          <h2>${p.title}</h2>
+          <p>${p.desc}</p>
+          <p><strong>Tools:</strong> ${p.tools}</p>
+          <a class="launch" href="${p.link}">Begin Quest</a>
+        `;
+        detail.classList.remove('fade-out');
+      }, 600);
+    }
+  </script>
+</body>
+</html>

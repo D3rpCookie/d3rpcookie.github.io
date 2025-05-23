@@ -110,6 +110,9 @@
       canvas.height = height;
     });
 
+    const mainPlanetImg = new Image();
+    mainPlanetImg.src = "assests/mainPage.jpg";
+
     const planets = [
       { angle: 0, radius: 100, size: 10, color: '#ff6b6b', speed: 0.01, url: 'project1.html' },
       { angle: 0, radius: 200, size: 15, color: '#feca57', speed: 0.005, url: 'project2.html' },
@@ -134,13 +137,11 @@
     function draw() {
       ctx.clearRect(0, 0, width, height);
 
-      // Draw central planet
-      ctx.beginPath();
-      ctx.arc(width / 2, height / 2, 30, 0, Math.PI * 2);
-      ctx.fillStyle = '#54a0ff';
-      ctx.fill();
+      // Draw central planet image
+      const imgSize = 100;
+      ctx.drawImage(mainPlanetImg, width / 2 - imgSize / 2, height / 2 - imgSize / 2, imgSize, imgSize);
 
-      // Draw planets
+      // Draw orbiting planets
       planets.forEach(p => {
         const x = width / 2 + p.radius * Math.cos(p.angle);
         const y = height / 2 + p.radius * Math.sin(p.angle);
